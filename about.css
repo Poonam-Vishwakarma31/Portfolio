@@ -1,0 +1,85 @@
+.about {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 200px;
+}
+
+.pg{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.about h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.about p{
+    display: flex;
+    color: rgb(71, 61, 61);
+    gap: 10px;
+
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.aboutCard{
+    background-color: white;
+    border-radius: 1rem;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-bottom: 30px;
+    min-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.aboutCard.icon{
+    margin-top: 15px;
+}
+
+.aboutCard .icon svg{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    color: #080808;
+}
+
+.aboutCard h1{
+  font-size: 1.8em;
+  color: #070707;
+  margin-bottom: 10px;
+}
+
+.aboutCard h1{
+  font-size: 1.2em;
+  color:#080808;
+  line-height: 1.6;
+}
+
+@media (max-width:768px){
+    .about{
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .about .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+     .aboutcard {
+        margin-bottom: 20px;
+    }
+
+}

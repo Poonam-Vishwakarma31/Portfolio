@@ -1,0 +1,87 @@
+.projects{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.pg{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+.Allprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+
+.projectsCard{
+    padding: 20px;
+    width: 300px;
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 3px;
+     background-color: #b0ccbc;
+
+}
+
+.projectcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    width: 250px;
+    height: 240px;
+     object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.projectsCard h2{
+    margin: 10px;
+    font-size: 1.8em;
+    color: rgb(15, 15, 15);
+   
+
+}
+
+.projectsCard p{
+    color: rgb(56, 51, 51);
+    margin-bottom: 20px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.skills i {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+.projectsCard .button{
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+   margin: 15px 0;
+
+}
